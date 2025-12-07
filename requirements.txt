@@ -4,10 +4,10 @@ torchaudio==2.0.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 torch-geometric==2.4.0
-pyvis==0.3.2
 pandas==2.1.4
 numpy==1.26.4
-plotly==5.18.0
 scikit-learn==1.3.2
+pyvis==0.3.2
+plotly==5.18.0
 joblib==1.3.2
 streamlit==1.35.0
