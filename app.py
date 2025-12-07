@@ -2,12 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
-from torch_geometric.nn import SAGEConv
-import torch.nn.functional as F
-from pyvis.network import Network
-import streamlit.components.v1 as components
-import plotly.express as px
-import joblib
+
 
 # ==============================================
 # 1. PCA AXIS NAMES YOU PROVIDED
@@ -258,4 +253,5 @@ with tabs[2]:
 
     g.save_graph("graph.html")
     components.html(open("graph.html", "r").read(), height=700)
+
 
