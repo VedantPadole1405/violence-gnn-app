@@ -110,23 +110,6 @@ However:
 
 The README reflects this evolution honestly.
 
-🛠️ Tech Stack
-Component	Technology
-Dashboard	Streamlit
-Modeling	PCA, KNN
-Graph Visualization	PyVis
-Data Processing	Pandas, NumPy
-Experimentation (local)	GraphSAGE, PyTorch Geometric
-Deployment	Streamlit Cloud
-📁 Repository Structure
-📦 violence-gnn-app
- ┣ 📄 app.py                # Main Streamlit application
- ┣ 📄 requirements.txt      # Minimal dependencies (no PyTorch needed)
- ┣ 📄 cleaned_features.csv  # Dataset used for predictions
- ┣ 📄 pca.npy               # PCA-transformed feature matrix
- ┣ 📄 pca_model.pkl         # PCA model (optional)
- ┣ 📄 README.md             # Project documentation
- ┗ 📄 .streamlit/config.toml (optional)
 
 📊 How the Model Works (Simplified)
 1️⃣ PCA reduces 100+ behavioral features → 32 interpretable dimensions
