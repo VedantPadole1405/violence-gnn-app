@@ -1,5 +1,4 @@
 import streamlit as st
-import torch
 import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
@@ -259,3 +258,4 @@ with tabs[2]:
 
     g.save_graph("graph.html")
     components.html(open("graph.html", "r").read(), height=700)
+
